@@ -17,6 +17,8 @@ class CashRegister
     @total *= @discount
   end
 
+  def void_last_transaction
+  end
 
 
 
