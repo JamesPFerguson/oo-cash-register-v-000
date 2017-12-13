@@ -18,7 +18,7 @@ class CashRegister
       puts "There is no discount to apply."
     else
     @total = total * @discount
-    
+  end
   end
 
   def void_last_transaction
