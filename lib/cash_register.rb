@@ -13,7 +13,7 @@ class CashRegister
     @items << item
   end
 
-  def apply_Discount
+  def apply_discount
     @total *= @discount
   end
 
